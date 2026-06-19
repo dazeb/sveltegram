@@ -15,24 +15,24 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
-		"@sveltejs/adapter-cloudflare": "^7.2.8",
-		"@sveltejs/kit": "^2.60.1",
-		"@sveltejs/package": "^2.5.7",
+		"@sveltejs/adapter-cloudflare": "^7.2.9",
+		"@sveltejs/kit": "^2.66.0",
+		"@sveltejs/package": "^2.5.8",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"dotenv": "^17.4.2",
-		"eslint": "^10.4.0",
+		"eslint": "^10.5.0",
 		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-svelte": "^3.17.1",
+		"eslint-plugin-svelte": "^3.19.0",
 		"globals": "^17.6.0",
-		"prettier": "^3.8.3",
-		"prettier-plugin-svelte": "^3.5.2",
+		"prettier": "^3.8.4",
+		"prettier-plugin-svelte": "^4.1.1",
 		"publint": "^0.3.21",
-		"svelte": "^5.55.8",
-		"svelte-check": "^4.4.8",
+		"svelte": "^5.56.3",
+		"svelte-check": "^4.6.0",
 		"tslib": "^2.8.1",
 		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.59.4",
-		"vite": "^8.0.13"
+		"typescript-eslint": "^8.61.1",
+		"vite": "^8.0.16"
 	},
 	"type": "module",
 	"author": "Amr <contact@a3k.me> (https://www.a3k.me/)",
@@ -73,11 +73,5 @@
 	"module": "./dist/index.js",
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"packageManager": "pnpm@10.15.1",
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild",
-			"workerd"
-		]
-	}
+	"packageManager": "pnpm@11.7.0"
 }
